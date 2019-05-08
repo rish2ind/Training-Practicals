@@ -1,0 +1,17 @@
+.container{
+	font-family: sans-serif;
+}
+.details{
+	border: 1px solid black;
+	margin: 5px;
+	width: 400px;
+	height: 400px;
+	float: left;
+	padding: 10px;
+	text-align: justify;
+    background-color: #a06711;
+    color: #ffffff;    
+}
+h3{
+    text-align: center;
+}
