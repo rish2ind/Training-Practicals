@@ -1,0 +1,162 @@
+body{
+    background-color: #f1f1f1;
+    margin: 0px;
+    padding: 0px;
+}
+.logo{
+    height: 150px;
+    width: 200px;
+    float: left;
+}
+.head{
+    background-color: antiquewhite;
+    padding: 20px;
+    height: 60px;
+}
+.social{
+     margin-left: 400px;
+}
+.icon{
+    font-size: 25px;
+    margin: 5px;
+    float: right;
+    color: black;
+    transition: transform .4s;
+}
+.icon:hover{
+    transform: scale(2);
+    color: #0000ff;
+}
+.nav{
+    background-color: #67686f;
+    padding: 10px;
+}
+.nav a{
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    font-size: 20px;
+}
+.nav a:hover{
+    color: black;
+    background-color: white;
+    padding: 10px;
+}
+.content{
+    width: 50%;
+    height: 250px;
+    float: left;
+    background-color: white;
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Century Gothic';
+    margin: 10px 0px 0px 5px;
+    text-align: justify;
+}
+.image{
+    width: 50%;
+    float: right;
+    position: relative;
+    top: -270px;
+    left: 80px;
+}
+.image1{
+    float: left;
+    width: 50%;
+    margin: 10px 0px 0px 5px;
+    position: relative;
+    top: -190px;
+}
+.content1{
+    float: right;
+    width: 50%;
+    background-color: white;
+    padding: 10px;
+    height: 230px;
+    font-size: 20px;
+    font-family: 'Century Gothic';
+    text-align: justify;
+    position: relative;
+    top: -440px;
+}
+.register{
+    background-color: darkorange;
+    padding: 15px;
+    font-size: 25px;
+    text-align: left;
+}
+.services{
+    float: left;
+    height: 150px;
+    width: 170px;
+    margin: 10px 0px 0px 50px;
+    background-color: white;
+    padding: 10px;
+    position: relative;
+    top: -70px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    box-shadow: 2px 3px 8px #669999;
+}
+.icon-service{
+    font-size: 30px;
+    margin-left: 50%;
+    transition: transform .4s;
+}
+.icon-service:hover{
+    color: green;
+    transform: scale(2);
+}
+.details{
+    font-size: 20px;
+    font-family: 'Century Gothic';
+}
+.details:hover{
+    color: red;
+}
+.submit:hover{
+    background-color: black;
+    color: white;
+}
+.others{
+    padding: 10px;
+    width: 100%;
+    background-color: white;
+    margin-top: 120px;
+    margin-left: 5px;
+    display: inline-block;
+    position: relative;
+    top: -450px;
+}
+.others a{
+    color: black;
+    text-decoration: none;
+    margin: 5px;
+    font-size: 25px;
+}
+.others a:hover{
+    color: white;
+    background-color: black;
+    padding: 10px;
+}
+.box{
+    display: inline-block;
+    margin-left: 25%;
+    position: relative;
+    top: -230px;
+}
+.banner{
+    opacity: .9;
+}
+.banner:hover{
+    opacity: 1;
+}
+.footer{
+    position: relative;
+    top: -420px;
+    background-color: white;
+    padding: 10px;
+    font-size: 22px;    
+    text-align: center;
+    font-family: 'Arial';
+}
