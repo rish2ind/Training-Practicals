@@ -1,0 +1,87 @@
+<html>
+    <head>
+        <title>CSS Properties</title>
+        <style type="text/css">
+            .transl{
+                background-color: #a3df45;
+                width: 250px;
+                height: 250px;            
+                z-index: 2;
+                transform: translate(60px, 50px);
+            }
+            h1{
+                color: blue;
+                font-family: cursive;
+            }
+            .rotate{
+                background-color: #a4d5af;
+                height: 250px;
+                width: 250px;
+            }
+            .rotate:hover{
+                transform: rotate(20deg);
+            }
+            .scale{
+                background-color: #f1a5d7;
+                height: 250px;
+                width: 250px;
+            }
+            .scale:hover{
+                transform: scale(1.1);
+            }
+            .relative{
+                background-color: #874602;
+                height: 250px;
+                width: 250px;
+                
+            }
+            .relative:hover{
+                position: relative;
+                top: 100px;
+                left: 80px;
+            }
+            .absolute{
+                background-color: #e3f4a5;
+                height: 250px;
+                width: 250px;
+                position: absolute;
+                top: 100px;
+                left: 80px;
+                z-index: 1;
+            }
+            p:first-letter{
+                font-size: 30px;
+                font-family: 'Helvetica';
+            }
+            p:before{
+                content: url(
+                Images/student.png);
+            }
+            p:after{
+                content: url(Images/student.png);
+            }
+        </style>
+    </head>
+    <body>
+       <h1>Transitions</h1>
+        <div class="transl">
+            
+        </div>
+        <div class="rotate">
+            
+        </div>
+        
+        <div class="scale">
+            
+        </div>
+        
+        <div class="relative">
+            
+        </div>
+        
+        <div class="absolute">
+            
+        </div><br><br>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+    </body>
+</html>
