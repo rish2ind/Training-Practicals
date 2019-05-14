@@ -1,0 +1,92 @@
+<html>
+    <head>
+        <title>Dropdown</title>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+        <style type="text/css">
+            /*.nav{
+                background-color: gray;
+                padding: 15px;
+            }
+            .nav a{
+                color: white;
+                text-decoration: none;
+                margin-left: 10px;
+                font-size: 25px;
+                display: inline;
+                padding: 15px;
+            }
+            .nav a:hover{
+                color: black;
+                background-color: white;
+            }
+            .nav a.active{
+                background-color: yellow;
+            }*/
+            .nav{
+                background-color: gray;
+                overflow: hidden;
+            }
+            .nav a{
+                float: left;
+                text-decoration: none;
+                font-size: 20px;
+                padding: 14px 16px;
+                text-align: center;
+                color: white;
+            }
+            .dropdown{
+                float: left;
+                overflow: hidden;
+            }
+            .dropdown .drop{
+                font-size: 20px;
+                border: none;
+                outline: none;
+                color: white;
+                padding: 14px 16px;
+                background-color: inherit;
+                font-family: inherit;
+                margin: 0px;
+            }
+            .dropdown-content{
+                display: none;
+                position: absolute;
+                width: 200px;
+                background-color: #f9f9f9;
+                box-shadow: 2px 3px 7px rgba(0, 0, 0, 0.2);
+                z-index: 1;
+            }
+            .dropdown-content a{
+                float: none;
+                padding: 12px 16px;          
+                font-size: 20px;
+                color: black;
+                text-align: left;
+                display: block;
+                text-decoration: none;
+            }
+             .dropdown:hover .drop{
+                background-color: pink;
+            }
+            .dropdown-content a:hover{
+                background-color: #ddd;
+            }
+            .dropdown:hover .dropdown-content{
+                display: block;
+            }
+        </style>
+    </head>
+    <body>
+       <div class="nav">
+          <div class="dropdown">
+              <button class="drop">Dropdown <i class="fas fa-sort-down"></i></button>
+              <div class="dropdown-content">
+           <a href="dropdown.html">Home</a>
+           <a href="#">About Us</a>
+           <a href="#">Contact</a>
+           <a href="#">Blog</a>
+           </div>
+           </div>
+       </div>
+    </body>
+</html>
