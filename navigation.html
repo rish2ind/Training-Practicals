@@ -1,0 +1,121 @@
+<html>
+    <head>
+        <title>
+            Navigation Bar
+        </title>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+        <style type="text/css">
+            .nav{
+                background-color: #176c6f;
+                margin-top: 15px;
+                width: 75%;
+                float: right;
+            }
+            .nav a{
+                padding: 15px;
+                color: white;
+                text-decoration: none;
+                font-size: 25px;        
+                display: inline-block;
+                
+            }
+            .nav a:hover{
+                color: blue;
+                transition: .6s;
+                background-color: white;
+            }
+            .nav a:active{
+                background-color: yellow;
+            }
+            .vertical{
+                width: 20%;
+                background-color: #e6d8d8;
+                height: 600px;
+            }
+            .vertical a{
+                text-decoration: none;
+                font-size: 25px;
+                display: block;
+                padding: 15px;
+            }            
+            .vertical a:hover{
+                color: black;
+                transition: .6s;
+                background-color: white;
+            }
+            .nav .icon{
+                float: right;
+                margin-right: 15px;
+                margin-top: 15px;
+                font-size: 25px;
+                color: white;
+                transition: transform .4s;
+            }
+            .nav .icon:hover{
+                transform: scale(2);
+                color: black;
+            }
+            .image{
+                border: 1px solid lightgray;
+                width: 200px;    
+                margin-left: 10px;
+                float: left;
+                position: relative;
+                left: 500px;
+                top: -400px;
+                transition: transform .4s;
+                box-shadow: 3px 3px 8px rgba(2, 3, 2, 0.2);
+            }
+            .image .details{
+                font-size: 20px;
+                font-family: cursive;
+                text-align: center;
+            }
+            .image:hover{
+                transform: scale(1.1);
+            }
+        </style>
+    </head>
+    <body>
+        <div class="nav">
+            <a href="navigation.html"><i class="fas fa-home"></i> Home</a> &nbsp; 
+            <a href="#">About</a> &nbsp; 
+            <a href="#"><i class="fas fa-id-card-alt"></i> Contact</a> &nbsp; 
+            <a href="#">Blog</a>
+            
+            <i class="fab fa-facebook-square icon"></i>
+            <i class="fab fa-instagram icon"></i>
+            <i class="fab fa-twitter icon"></i>
+            <i class="fab fa-linkedin-in icon"></i>
+        </div>
+        <div class="vertical">
+            <ul style="list-style-type: none;">
+                <li>
+                    <a href="navigation.html">Home</a> &nbsp; &nbsp; &nbsp;
+                    <a href="#">About</a> &nbsp; &nbsp; &nbsp;
+                    <a href="#">Contact</a> &nbsp; &nbsp; &nbsp;
+                    <a href="#">Blog</a>
+                </li>
+            </ul>
+        </div>
+        <h1 style="position: relative; top: -450px; left: 500px; font-size: 45px;"><span style="color: yellow;">I</span><span style="color: red;">m</span><span style="color: blue;">a</span><span style="color: green;">g</span><span style="color: deeppink;">e</span> <span style="color: green;">G</span><span style="color: orange;">a</span><span style="color: darkorchid;">l</span><span style="color: darkgoldenrod;">l</span><span style="color: blue;">e</span><span style="color: darkgoldenrod;">r</span><span style="color: red;">y</span></h1>
+        <div class="image">
+            <a href="Images/Almora.jpg"><img src="Images/Almora.jpg" alt="" width="200" height="200"></a><div class="details"><p>Almora Kashmir</p></div>
+        </div>
+        <div class="image">
+            <a href="Images/Jaipur.jpg"><img src="Images/Jaipur.jpg" alt="" width="200" height="200"></a><div class="details"><p>Jaipur Rajasthan</p></div>
+        </div>
+        
+        <div class="image">
+            <a href="Images/Jama-Masjid.jpg"><img src="Images/Jama-Masjid.jpg" alt="" width="200" height="200"></a><div class="details"><p>Jama Masjid</p></div>
+        </div>
+        
+        <div class="image">
+            <a href="Images/forts.jpg"><img src="Images/forts.jpg" alt="" width="200" height="200"></a><div class="details"><p>Chittorgarh</p></div>
+        </div>
+        
+        <div class="image">
+            <a href="Images/Amer1.jpg"><img src="Images/Amer1.jpg" alt="" width="200" height="200"></a><div class="details"><p>Amer Fort</p></div>
+        </div>
+    </body>
+</html>
