@@ -1,0 +1,273 @@
+<html>
+    <head>
+        <title>Tourism</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>  
+        
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+        
+        <style type="text/css">
+            body{
+                background-color: #f1f1f1;
+            }
+            .heading{
+                color: #940894;
+                text-shadow: 2px 3px 20px;
+                text-align: center;
+            }
+            .header{
+                background-color: antiquewhite;
+                height: 100px;
+            }
+            .icon{
+                background-color: antiquewhite;
+                font-size: 22px;
+                text-align: center;
+                height: 100px;
+                word-spacing: 10px;
+            }
+            .icon i{
+                margin-top: 25px;
+                transition: transform .4s;
+            }
+            .icon i:hover{
+                transform: scale(2);
+                color: blue;
+            }
+            .navigation{
+                background-color: darkblue;
+                
+            }
+            .navigation .lists li a{
+                color: white;
+                font-size: 18px;
+                font-family: cursive;
+                transition: .4s;
+            }
+            .navigation .lists li a:hover{
+                background-color: black;
+                color: white;    
+            }
+            .navigation .lists li a:visited{
+                color: white;
+            }
+            .navigation .lists li a:active{
+                background-color: green;
+            }
+            .images{
+                height: 700px;
+            }
+            .details{
+                background-color: white;
+                height: 300px;
+                padding: 30px;
+                font-size: 23px;
+                font-family: 'Century Gothic';
+                text-align: justify;
+            }
+            .jumbo{
+                background-color: #ff9800;
+                height: 20px;
+            }
+            .register{
+                border-radius: 5px;
+                padding: 20px;
+                background-color: lightgray;
+                font-size: 20px;
+                text-decoration: none;
+                color: black;
+            }
+            .register:hover{
+                background-color: black;
+                color: white;
+                text-decoration: none;
+            }
+            .services{
+                margin: 10px 0px 0px 15px;
+                box-shadow: 2px 3px 15px ;
+                height: 150px;
+                padding: 25px;
+                background-color: white;
+                border-radius: 15px;
+                width: 400px;
+            }
+            .detail{
+                font-size: 22px;
+                margin-top: 10px;
+            }
+            .detail:hover{
+                color: red;
+            }
+            .service-icon{
+                font-size: 24px;
+                margin-left: 45%;
+                transition: transform .4s;
+            }
+            .service-icon:hover{
+                transform: scale(2);
+                color: green;
+            }
+            .others{
+                background-color: white;
+                padding: 15px;
+                height: 150px;
+                font-size: 20px;
+                line-height: 50px;
+            }
+            .others a{
+                margin-left: 10px;
+                transition: .4s;
+                color: black;
+                padding: 10px;
+                margin-top: 40px;
+            }
+            .others a:hover{
+                background-color: black;
+                color: white;
+                text-decoration: none;
+            }
+            .button{
+                color: white;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-1 logo">
+                    <img src="Images/Jama-Masjid.jpg" alt="" height="100px" width="200px;">
+                </div>
+                <div class="col-md-9 header">
+                    <h1 class="heading">Rajasthan Tourism</h1>
+                    
+                </div>
+                <div class="col-md-2 icon">
+                    <i class="fab fa-instagram "></i>
+                    <i class="fab fa-twitter "></i>
+                    <i class="fab fa-linkedin-in "></i>
+                    <i class="fab fa-facebook-f "></i>
+                </div>
+            </div>
+            </div>
+            <nav class="navbar navbar-default navigation">
+                <div class="container-fluid">
+                    <div class="navbar-header navigation">
+                        <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#navb">
+                            <i class="glyphicon glyphicon-align-center button"></i>
+                        </button>
+                    </div>
+                    <div class="navbar-collapse collapse" id="navb">
+                        <ul class="nav navbar-nav navbar-left lists">
+                            <li><a href="#">HOME</a></li>
+                            <li><a href="#">About</a></li>
+                            <li class="dropdown">
+                                <a class="dropdown-toggle" data-toggle="dropdown" role="button">
+                                    SERVICES <span class="caret"></span>
+                                </a>
+                                
+                                <ul class="dropdown-menu ">
+                                    <li>
+                                        <a href="" >SERVICE 1</a>
+                                    </li>
+                                    <li>
+                                        <a href="">SERVICE 2</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>            
+                </div>
+            </nav>
+            <div class="carousel slide" id="image" data-ride="carousel">
+              
+                    <ol class="carousel-indicators">
+                        <li data-target="#image" data-slide-to="0" class="active"></li>
+                        <li data-target="#image" data-slide-to="1" ></li>
+                        <li data-target="#image" data-slide-to="2" ></li>
+                    </ol>
+              <div class="carousel-inner">
+                  <div class="item active images">
+                      <a href="Bootstrap/Bootstrap-Images/ashwini-chaudhary-1309025-unsplash.jpg"><img src="Bootstrap/Bootstrap-Images/ashwini-chaudhary-1309025-unsplash.jpg" alt="" ></a>
+                  </div>
+                  <div class="item images">
+                      <a href="Bootstrap/Bootstrap-Images/ravi-shekhar-386035-unsplash.jpg"><img src="Bootstrap/Bootstrap-Images/ravi-shekhar-386035-unsplash.jpg" alt="" ></a>
+                  </div>
+                  <div class="item images">
+                      <a href="Bootstrap/Bootstrap-Images/rowan-heuvel-1243026-unsplash.jpg"><img src="Bootstrap/Bootstrap-Images/rowan-heuvel-1243026-unsplash.jpg" alt="" ></a>
+                  </div>
+              </div>
+              <a class="carousel-control left" data-slide="prev" role="button" href="#image">
+                  <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+              </a>
+              <a href="#image" class="carousel-control right" role="button" data-slide="next">
+                  <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+              </a>
+            </div>    
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6 details">
+                    The land of Maharajas, lakes, grace, emotions, adventure, and vibrancy, Rajasthan with its royal essence welcomes you with all its heart. "Khamma Ghani", it says, and has the beauty that never betrays. Rajasthan is a magical land full of cheerfulness and quintessential charm. In the era where development has taken over, the state remains truthful to its roots and customs.
+                </div>
+                <div class="col-md-6 ">
+                    <img src="Images/forts.jpg" alt="" height="300px">
+                </div>
+            </div>
+        </div>       
+        
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="Images/Amer1.jpg" alt="" height="300px">
+                </div>
+                <div class="col-md-6 details">
+                It is a land that showers you with love and a melting pot of multiple religions that is meant to be visited once a lifetime. Realizing its heritage richness and eyeful aura, more and more people are booking their tours to this heavenly destination leading to an increase in Rajasthan Tourism. Be an influential part of this rise, Book your tours now!
+            </div>
+            </div>            
+        </div>
+        <div class="jumbotron jumbo">
+           <div class="container">
+           <div class="row">
+            <div class="col-md-6 ">
+             <p style="font-size: 24px;"> <sup><i class="fas fa-quote-left" style="font-size: 22px;"></i></sup> For registration click on the button &nbsp; &nbsp;&nbsp; <i class="fas fa-arrow-right"></i></p> 
+            </div>
+            <div class="col-md-6">
+                <a href="#" class="register"> Register</a>
+            </div>
+            </div>
+        </div>
+        </div>
+        <div class="container-fluid">
+          <h3 style="text-align: center; text-shadow: 2px 3px 15px;"> Services</h3>
+            <div class="row">
+               
+                <div class="col-md-4 services">
+                    <i class="far fa-clock service-icon"></i><p class="detail">24*7 Hours Opening</p>
+                </div>
+                <div class="col-md-4 services">
+                    <i class="fas fa-utensils service-icon"></i><p class="detail">Food Facilities</p>
+                </div>
+                <div class="col-md-4 services">
+                    <i class="fas fa-bus service-icon"></i><p class="detail">Transport Services</p>
+                </div>
+            </div>
+        </div>
+        <div class="jumbotron">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-8 others">
+                        <a href="#">Kashmir Tourism</a>
+                        <a href="#">Kerela Tourism</a>
+                        <a href="#">Telengana Tourism</a>
+                        <a href="#">Goa Tourism</a>
+                    </div>
+                    <div class="col-md-4">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3557.297673723535!2d75.82146941452092!3d26.925776066010705!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396db40b8620b0c1%3A0x44801531017d7b60!2sCity+Palace!5e0!3m2!1sen!2sin!4v1558255701604!5m2!1sen!2sin" width="430" height="150" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>  
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>  
+    </body>
+</html>
